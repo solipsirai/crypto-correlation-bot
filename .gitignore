@@ -1,0 +1,22 @@
+# Python Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Local DBs and configurations
+*.sqlite
+*.db
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
