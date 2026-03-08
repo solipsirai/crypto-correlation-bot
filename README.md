@@ -1,4 +1,4 @@
-# 📈 Crypto Correlation & Statistical Arbitrage Bot
+# 📈 Crypto Correlation Bot
 
 ## 🚀 Vision & Purpose
 This project is an AI-assisted Quantitative Trading Bot designed to filter out the "noise" in the cryptocurrency market and detect genuine statistical arbitrage opportunities. 
