@@ -1,3 +1,27 @@
+# 📈 Crypto Correlation & Statistical Arbitrage Bot
+
+## 🚀 Vision & Purpose
+This project is an AI-assisted Quantitative Trading Bot designed to filter out the "noise" in the cryptocurrency market and detect genuine statistical arbitrage opportunities. 
+
+Built with a mindset similar to an industrial **Process Control System**, this bot takes raw market data, filters out impurities (such as stablecoins, leveraged tokens, and macro market shocks), and refines it into highly accurate, actionable signals. It moves beyond simple price tracking by identifying **Lead-Lag** dynamics and **Cointegration** between altcoin pairs.
+
+## ⚙️ Key Features
+* **Advanced Noise Filtering:** Automatically ignores stablecoins, indices (e.g., PAXG, SPYX), and leveraged ETF tokens.
+* **Hub Effect / Spam Prevention:** Filters out "herd behavior" where a single coin correlates with the entire market due to macro trends rather than a unique pair relationship.
+* **Lead-Lag & Z-Score Analysis:** Calculates the spread divergence between highly correlated pairs (>0.85) to catch "catch-up" (mean reversion) opportunities.
+* **Volume & Liquidity Checks:** Ignores low-volume "ghost" coins to prevent slippage risks.
+* **Dynamic Timeframes:** Automatically adjusts correlation thresholds for lower timeframes (e.g., 3m, 5m) to filter out HFT (High-Frequency Trading) bot noise.
+* **Telegram Integration:** Sends real-time, targeted alerts directly to your phone.
+
+## 🛠️ Installation & Setup
+1. Clone the repository: `git clone https://github.com/solipsirai/crypto-correlation-bot.git`
+2. Install the required libraries: `pip3 install -r requirements.txt`
+3. Update the `config.py` file with your own `TELEGRAM_BOT_TOKEN`.
+4. Run the bot: `python3 main.py`
+
+## ⚠️ Disclaimer
+**This project is for educational and engineering research purposes only.** It does not constitute financial advice. The developer is not responsible for any financial losses incurred from using this bot or its signals. Trade at your own risk.
+
 # ⚡ Crypto Quantitative Correlation & Arbitrage Bot
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
@@ -59,3 +83,4 @@ Aşağıdaki gibi bir çok kural setini `config.py` içerisinden kendi risk prof
 
 ### ⚖️ Yasal Uyarı (Disclaimer)
 *Bu yazılım tamamen açık kaynaklı bir mühendislik ve veri bilimi araştırma projesi (Proof of Concept) olarak tasarlanmıştır. Çıktıların hiçbiri bir ticaret sistemi teklifi veya finansal yatırım tavsiyesi (YTD) niteliği taşımaz. Finansal piyasalar doğası gereği yüksek risk içerir, projenin kullanımı sonucu doğabilecek kâr veya zararlardan kodun geliştiricileri veya katkıda bulunanlar sorumlu tutulamaz. Yazılımı kullanmadan önce daima kendi risk analizinizi ve testlerinizi gerçekleştirmeniz önerilir.*
+
